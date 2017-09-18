@@ -26,14 +26,20 @@ beginingh ={
     2 : "0950",
     3 : "1120",
     4 : "1220",
-    5 : "1440"
+    5 : "1440",
+    "GA" : "1430",
+    "MB" : "1050",
+    "LB" : "1315"
 }
 endingh ={
     1 : "0945",
     2 : "1045",
     3 : "1215",
     4 : "1315",
-    5 : "1545"
+    5 : "1545",
+    "GA" : "1545",
+    "MB" : "1120",
+    "LB" : "1435"
 }
 
 lessons = []
@@ -88,7 +94,10 @@ def loaddata(filename):
             templesson.name = lines[n].strip()
             templesson.aorb = lines[n+1].strip()
             templesson.day = int(lines[n+2].strip())
-            templesson.period = int(lines[n+3].strip())
+            try:
+                templesson.period = int(lines[n+3].strip())
+            except Exception:
+                templesson.period = lines[n + 3].strip()
             templesson.room = lines[n+4].strip()
             lessons.append(templesson)
 

@@ -4,6 +4,12 @@ A
 1
 14
 
+LS
+A
+1
+5
+Studio 1
+
 PH
 A
 2
@@ -34,6 +40,12 @@ A
 1
 IS05
 
+Sydney Meeting
+A
+3
+MB
+No one knows
+
 MA
 A
 3
@@ -49,7 +61,7 @@ IS05
 GA
 A
 3
-5
+GA
 Sports Centre
 
 MA
@@ -112,6 +124,12 @@ B
 4
 PH03
 
+LS
+B
+1
+5
+Studio 1
+
 CP
 B
 2
@@ -142,6 +160,12 @@ B
 2
 PH03
 
+Sydney Meeting
+B
+3
+MB
+No one knows
+
 MA
 B
 3
@@ -157,7 +181,7 @@ PH02
 GA
 B
 3
-5
+GA
 Sports Centre
 
 PH
